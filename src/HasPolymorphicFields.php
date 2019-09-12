@@ -1,6 +1,6 @@
 <?php
 
-namespace AColorStory\NovaPolymorphicField;
+namespace Acolorstory\NovaPolymorphicField;
 
 use Illuminate\Support\Facades\Route;
 use Laravel\Nova\Fields\FieldCollection;
