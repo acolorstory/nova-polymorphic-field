@@ -1,6 +1,6 @@
 <?php
 
-namespace AColorStory\NovaPolymorphicField;
+namespace Acolorstory\NovaPolymorphicField;
 
 use Laravel\Nova\Fields\Field;
 use Laravel\Nova\Http\Requests\NovaRequest;
