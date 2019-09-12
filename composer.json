@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "MichielKempen\\NovaPolymorphicField\\": "src/"
+            "AColorStory\\NovaPolymorphicField\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "MichielKempen\\NovaPolymorphicField\\FieldServiceProvider"
+                "AColorStory\\NovaPolymorphicField\\FieldServiceProvider"
             ]
         }
     },
