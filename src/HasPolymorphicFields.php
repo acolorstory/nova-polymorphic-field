@@ -5,6 +5,7 @@ namespace MichielKempen\NovaPolymorphicField;
 use Illuminate\Support\Facades\Route;
 use Laravel\Nova\Fields\FieldCollection;
 use Laravel\Nova\Http\Requests\NovaRequest;
+use Illuminate\Support\Str;
 
 trait HasPolymorphicFields
 {
@@ -38,6 +39,6 @@ trait HasPolymorphicFields
      */
     protected function requestIsAssociateRequest(): bool
     {
-        return ends_with(Route::currentRouteAction(), 'AssociatableController@index');
+        return Str::endsWith(Route::currentRouteAction(), 'AssociatableController@index');
     }
 }
