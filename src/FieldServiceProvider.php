@@ -1,6 +1,6 @@
 <?php
 
-namespace MichielKempen\NovaPolymorphicField;
+namespace AColorStory\NovaPolymorphicField;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
