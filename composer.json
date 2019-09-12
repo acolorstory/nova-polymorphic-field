@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "AColorStory\\NovaPolymorphicField\\": "src/"
+            "Acolorstory\\NovaPolymorphicField\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "AColorStory\\NovaPolymorphicField\\FieldServiceProvider"
+                "Acolorstory\\NovaPolymorphicField\\FieldServiceProvider"
             ]
         }
     },
